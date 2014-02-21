@@ -6,7 +6,7 @@ Orbit is a Lua-based micro-framework.  For AngularJS integration with other micr
 
 ## Installation
 
-Install [Git](http://git-scm.com), [node.js](http://nodejs.org), [LuaRocks](http://luarocks.org/), and [Orbit](http://keplerproject.github.io/orbit/).  The development mode also requires [SQLite](http://www.sqlite.org).
+Install [Git](http://git-scm.com), [node.js](http://nodejs.org) and [LuaRocks](http://luarocks.org/).  The development mode also requires [SQLite](http://www.sqlite.org).
 
 Install Yeoman:
 
@@ -16,12 +16,18 @@ Install the Angular-Orbit generator:
 
     npm install -g generator-angular-orbit
 
-## Creating a Orbit service
+## Creating an Orbit service
 
 In a new directory, generate the service:
 
     yo angular-orbit
 
+Install dependencies:
+
+	luarocks install orbit
+	luarocks install luasql-sqlite3
+	luarocks install JSON4Lua
+	
 Run the service:
 
     orbit app.lua
