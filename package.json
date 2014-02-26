@@ -1,13 +1,13 @@
 {
   "name": "generator-angular-orbit",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A Yeoman generator for AngularJS + Orbit",
   "keywords": [
     "yeoman-generator",
     "Lua",
     "Orbit",
     "AngularJS",
-    "Twitter Bootstrap"
+    "Bootstrap"
   ],
   "homepage": "https://github.com/rayokota/generator-angular-orbit",
   "bugs": "https://github.com/rayokota/generator-angular-orbit/issues",
