@@ -87,6 +87,7 @@ function app.delete_<%= entity.name %>(web, id)
   local <%= entity.name %> = <%= entity.name %>_list:find(tonumber(id))
   if not <%= entity.name %> then return app.not_found(web) end
   <%= entity.name %>:delete()
+  web.status = "204"
   cache:invalidate("/<%= baseName %>/<%= pluralize(entity.name) %>")
 end
 
