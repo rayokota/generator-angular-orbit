@@ -6,7 +6,7 @@ Orbit is a Lua-based micro-framework.  For AngularJS integration with other micr
 
 ## Installation
 
-Install [Git](http://git-scm.com), [node.js](http://nodejs.org) and [LuaRocks](http://luarocks.org/).  The development mode also requires [SQLite](http://www.sqlite.org).
+Install [Git](http://git-scm.com), [node.js](http://nodejs.org), [Lua 5.1](http://www.lua.org/), and [LuaRocks](http://luarocks.org/).  The development mode also requires [SQLite](http://www.sqlite.org).
 
 Install Yeoman:
 
