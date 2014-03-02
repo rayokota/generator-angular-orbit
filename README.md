@@ -16,6 +16,8 @@ Install the Angular-Orbit generator:
 
     npm install -g generator-angular-orbit
 
+The above prerequisites can be installed to a VM using the [Angular-Orbit provisioner](https://github.com/rayokota/provision-angular-orbit).
+
 ## Creating an Orbit service
 
 In a new directory, generate the service:
