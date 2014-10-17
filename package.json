@@ -1,6 +1,6 @@
 {
   "name": "generator-angular-orbit",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "A Yeoman generator for AngularJS + Orbit",
   "keywords": [
     "yeoman-generator",
